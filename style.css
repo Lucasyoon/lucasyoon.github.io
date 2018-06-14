@@ -1,7 +1,24 @@
+/* 
+#0b0c10 black
+#1f2833 navy
+#c5c6c7 grey
+#66fcf1 torquoise
+#45a29e green 
+*/
 h1 {
     color: rgb(107, 230, 235);
     font-size: 35px;
+    text-align: center;
 }
 h2 {
     font-size: 20px;
+}
+#bigorsmallwords {
+    font-size: 50px;
+}
+body { 
+    background-color :#1f2833;
+}
+header {
+     background-color:#45a29e;
 }
