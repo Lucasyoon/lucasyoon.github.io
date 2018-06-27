@@ -12,13 +12,45 @@ h1 {
 }
 h2 {
     font-size: 20px;
-}
-#bigorsmallwords {
-    font-size: 50px;
+    color:#66fcf1;
 }
 body { 
     background-color :#1f2833;
 }
 header {
      background-color:#45a29e;
+     margin-bottom:70px;
+}
+p {
+    background-color :#45a29e;
+    width:50%;
+}
+a:link,
+a:visited {
+  color: white;
+}
+a:hover{
+    background-color:#66fcf1;
+    color:#1f2833;
+}
+h3 {
+    color:#c5c6c7;
+}
+h4 {
+    color :#45a29e;
+}
+nav {
+    border-style:solid;
+    border-color:#66fcf1;
+    width:25%;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top:15px;
+}
+footer {
+    text-align: center;
+}
+#footerP {
+    width:100%;
 }
