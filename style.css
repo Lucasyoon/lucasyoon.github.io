@@ -54,3 +54,8 @@ footer {
 #footerP {
     width:100%;
 }
+#myCanvas {
+    border-style:solid;
+
+    background-color: white;
+}
