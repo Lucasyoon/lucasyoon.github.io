@@ -61,13 +61,22 @@ function init() {
     ctx.fillRect(7 * unit, 11 * unit, 1 * unit, 3 * unit);
     ctx.fillRect(10 * unit, 13 * unit, 2 * unit, 2 * unit);
     ctx.fillRect(9 * unit, 12 * unit, 1 * unit, 1 * unit);
-    ctx.fillRect(7 * unit,7 * unit,1 * unit,1 * unit);
-    ctx.fillRect(9 * unit,18 * unit,3 * unit,1 * unit);
-    ctx.fillRect();
+    ctx.fillRect(7 * unit, 7 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(9 * unit, 18 * unit, 3 * unit, 1 * unit);
+    ctx.fillRect(14 * unit, 16 * unit, 3 * unit, 1 * unit);
+    ctx.fillRect(14 * unit, 15 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(17 * unit, 15 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(12 * unit, 14 * unit, 1 * unit, 2 * unit);
+    ctx.fillRect(11 * unit, 16 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(10 * unit, 17 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(8 * unit, 17 * unit, 1 * unit, 1 * unit);
     // ctx.fillRect();
     // ctx.fillRect();
     // ctx.fillRect();
     // ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+
     ctx.fillStyle = "rgb(248,128,88)";
     // light orange
     ctx.fillRect(6 * unit, 1 * unit, 2 * unit, 1 * unit);
@@ -108,19 +117,7 @@ function init() {
     // ctx.fillRect();
     // ctx.fillRect();
     // ctx.fillRect();
-    // ctx.fillRect();
-
-    ctx.fillStyle = "rgb(152,0,0)";
-    ctx.fillRect(1 * unit,8 * unit,1 * unit,1 * unit);
-    ctx.fillRect(3 * unit,9 * unit,1 * unit,1 * unit);
-    ctx.fillRect(10 * unit,11 * unit,1 * unit,2 * unit);
-    ctx.fillRect(9 * unit,13 * unit,1 * unit,2 * unit);
-    ctx.fillRect(8 * unit,14 * unit,1 * unit,1 * unit);
-    ctx.fillRect(8 * unit,18 * unit,1 * unit,1 * unit);
-    ctx.fillRect(11 * unit,17 * unit,1 * unit,1 * unit);
-    ctx.fillRect(12 * unit,16 * unit,1 * unit,1 * unit);
-    ctx.fillRect(13 * unit,15 * unit,1 * unit,1 * unit);
-    ctx.fillRect(14 * unit,14 * unit,1 * unit,1 * unit);
+    ctx.fillRect(14 * unit, 14 * unit, 1 * unit, 1 * unit);
 
     // blue
     ctx.fillStyle = "rgb(72,88,144)";
@@ -131,6 +128,26 @@ function init() {
     ctx.fillStyle = "rgb(184,200,240)";
     ctx.fillRect(6 * unit, 16 * unit, 1 * unit, 1 * unit);
 
+    //  DARK YELLOW
+    ctx.fillStyle = "rgb(160,104,0)";
+    ctx.fillRect(6 * unit, 14 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(7 * unit, 15 * unit, 1 * unit, 1 * unit);
+    // ctx.fillRect();
+    // ctx.fillRect();
 
+    // LIGHT YELLOW
+    ctx.fillStyle = "rgb(248,240,0)";
+    ctx.fillRect(6 * unit, 12 * unit, 1 * unit, 1 * unit);
+    // ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+
+
+    // YELLOW
+    ctx.fillStyle = "rgb(216,176,0)";
+    ctx.fillRect(6 * unit,11 * unit,1 * unit,1 * unit);
+    ctx.fillRect(6 * unit,13 * unit,1 * unit,1 * unit);
+    // 
 }
 
