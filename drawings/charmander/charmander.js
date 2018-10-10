@@ -146,8 +146,20 @@ function init() {
 
     // YELLOW
     ctx.fillStyle = "rgb(216,176,0)";
-    ctx.fillRect(6 * unit,11 * unit,1 * unit,1 * unit);
-    ctx.fillRect(6 * unit,13 * unit,1 * unit,1 * unit);
-    // 
-}
+    ctx.fillRect(6 * unit, 11 * unit, 1 * unit, 1 * unit);
+    ctx.fillRect(6 * unit, 13 * unit, 1 * unit, 1 * unit);
 
+    // red
+    ctx.fillStyle = "rgb(152,0,0)";
+    ctx.fillRect(1 * unit,8 * unit,1 * unit,1 * unit);
+    ctx.fillRect(3 * unit,9 * unit,1 * unit,1 * unit);
+    ctx.fillRect(10 * unit,11 * unit,1 * unit,2 * unit);
+    ctx.fillRect(9 * unit,13 * unit,1 * unit,2 * unit);
+    ctx.fillRect(8 * unit,14 * unit,1 * unit,1 * unit);
+    ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+    // ctx.fillRect();
+
+}
