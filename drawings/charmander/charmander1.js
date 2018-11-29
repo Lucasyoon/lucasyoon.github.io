@@ -40,7 +40,8 @@ function init() {
     ctx.fillRect(2 * unit, 10 * unit, 1 * unit, 1 * unit);
     ctx.fillRect(6 * unit, 5 * unit, 1 * unit, 2 * unit);
     ctx.fillRect(5 * unit, 6 * unit, 1 * unit, 2 * unit);
-
+    
+    
     ctx.fillStyle = "rgb(208,56,0)";
     // orange
     ctx.fillRect(5 * unit, 1 * unit, 1 * unit, 1 * unit);
