@@ -122,8 +122,7 @@ function init() {
     // ctx.fillRect();
     // ctx.fillRect();
     // ctx.fillRect();
-   
-
+q
     //  DARK YELLOW
     ctx.fillStyle = "rgb(160,104,0)";
     // ctx.fillRect();
