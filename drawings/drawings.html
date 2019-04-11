@@ -12,9 +12,7 @@
     <nav>
         <a href="../index.html">Homepage</a>
         <br>
-        <a href="charmander/charmander1.html">Charmander 1</a>
-        <br>
-        <a href="charmander/charmander2.html">Charmander 2</a>
+        <a href="charmander.html">Charmander</a>
     </nav>
     <br>
     <section>
@@ -23,6 +21,18 @@
     <footer>
         <p id="footerP">&copy; 2018</p>
     </footer>
+    <script>
+        var canvas;
+        var ctx;
+        const unit= 15;
+        window.onload = init;
+        function init() {
+            canvas = document.getElementById("myCanvas");
+            ctx = canvas.getContext("2d");
+            drawGroundBlocks(10,5,7);
+        }
+    </script>
+    <script src="drawGroundBlock.js"></script>
 </body>
 
 </html>

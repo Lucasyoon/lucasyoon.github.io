@@ -13,7 +13,7 @@
     margin-top:15px; */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 h2 {
-    font-size: 20px;
+    font-size: 40px;
     color:#333A56;
 }
 body { 
@@ -34,7 +34,11 @@ header h1{
 }
 p {
     background-color :#F7F5E6;
-    width:50%;
+    width:100%;
+    font-size:2em;
+    padding-top:50px;
+    padding-bottom:50px;
+
 }
 a:link,
 a:visited {
@@ -47,9 +51,11 @@ a:hover{
 }
 h3 {
     /* color:#c5c6c7; */
+    font-size:30px;
 }
 h4 {
     color :#333A56;
+    font-size:25px;
 }
 nav {
     display:flex;
@@ -83,4 +89,7 @@ footer {
     border-style:solid;
 
     background-color: white;
+}
+section {
+    text-align: center;
 }

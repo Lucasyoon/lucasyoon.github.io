@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Charmander</h1>
+    </header>
+    <nav>
+        <a href="../../index.html">Homepage</a>
+    </nav>
+    <br>
+    <section>
+        <canvas id="myCanvas" width="1500" height="800"></canvas>
+    </section>
+    <footer>
+        <p id="footerP">&copy; 2018</p>
+    </footer>
+    <script src="drawCharmander.js"></script>
+    <script src="drawGroundBlock.js"></script>
+    <script>
+        var canvas;
+        var ctx;
+        var unit = 10;
+        window.onload = init;
+        function init() {
+            canvas = document.getElementById("myCanvas");
+            ctx = canvas.getContext("2d");
+            // drawCharmander1(2,7);
+            // drawCharmander1(7,8);
+            drawBackground();
+            drawCharmander1(10,42);
+            drawCharmander2(40,43);
+            
+            
+        }
+        function drawBackground() {
+            ctx.fillStyle = "rgb(162,203,155)";
+            ctx.fillRect(0,0,canvas.width,canvas.height);
+            drawGroundBlocks(10,0,63);
+
+        }
+
+    </script>
+</body>
+
+</html>
