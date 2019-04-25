@@ -93,3 +93,12 @@ footer {
 section {
     text-align: center;
 }
+.changeTextColor:link,
+.changeTextColor:visited {
+    color: #52658F;
+    font-size : 2em;
+
+}
+.changeTextColor:hover {
+    font-size : 2em;
+}

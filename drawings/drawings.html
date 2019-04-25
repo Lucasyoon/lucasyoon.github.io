@@ -16,7 +16,7 @@
     </nav>
     <br>
     <section>
-        <canvas id="myCanvas" width="1500" height="500"></canvas>
+        <canvas id="myCanvas" width="1500" height="800"></canvas>
     </section>
     <footer>
         <p id="footerP">&copy; 2018</p>
@@ -24,15 +24,16 @@
     <script>
         var canvas;
         var ctx;
-        const unit= 15;
+        const unit= 20;
         window.onload = init;
         function init() {
             canvas = document.getElementById("myCanvas");
             ctx = canvas.getContext("2d");
-            drawGroundBlocks(10,5,7);
+            drawCharmander3(0,0);
+
         }
     </script>
-    <script src="drawGroundBlock.js"></script>
+    <script src="drawCharmander.js"></script>
 </body>
 
 </html>
